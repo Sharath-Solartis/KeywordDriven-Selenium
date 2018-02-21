@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="71.424" tests="21" errors="0" skipped="8" failures="4">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
+    <property name="java.vm.version" value="25.73-b02"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\smoke_test\Java_projects\selenium"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\smoke_test\Java_projects\selenium"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\SASIRE~1.SOL\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="remoteIP" value="192.168.4.131"/>
+    <property name="JDBC_DRIVER" value="com.mysql.jdbc.Driver"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="FlagForExecution" value="Y"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="E:\smoke_test\Java_projects\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4329999998050932638.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_73/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_73/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_73/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_73\bin;E:\Apps\apache-maven-3.3.9\bin;C:\msysgit\bin\;C:\msysgit\mingw\bin\;E:\Backup 29.3.2017\Downloads\eclipse-jee-mars-2-win32-x86_64\eclipse;;C:\Program Files (x86)\HP\QuickTest Professional\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\sasirekha_a.SOLARTISTECH"/>
+    <property name="Port" value="4444"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="DB_URL" value="jdbc:mysql://192.168.84.225:3700/SeleniumConfig"/>
+    <property name="password" value="redhat"/>
+    <property name="user.name" value="sasirekha_a"/>
+    <property name="java.class.path" value="/E:/Backup 29.3.2017/Downloads/eclipse-jee-mars-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_73\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean package exec:java -DProject=NITIC -DFlow=Quote -DEnv=QA -DFlagForExecution=Y -DJDBC_DRIVER=com.mysql.jdbc.Driver -DDB_URL=jdbc:mysql://192.168.84.225:3700/SeleniumConfig -DUSER=root -Dpassword=redhat -Dbrowser=chrome -DResultChoice=Actual -DremoteIP=192.168.4.131 -DPort=4444"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="Flow" value="Quote"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes;C:\PROGRA~2\HP\QUICKT~1\bin\JAVA_S~1\classes;C:\PROGRA~2\HP\QUICKT~1\bin\JAVA_S~1\classes\jasmine.jar"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\smoke_test\Java_projects\selenium\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="Env" value="QA"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="ResultChoice" value="Actual"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="USER" value="root"/>
+    <property name="Project" value="NITIC"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="loadconfig" classname="com.selenium.Test.UIMainscript" time="2.508">
+    <failure message="ERROR IN RETRIVING DATA FROM -- RootFolder" type="com.selenium.exception.PropertiesHandleException">com.selenium.exception.PropertiesHandleException: ERROR IN RETRIVING DATA FROM -- RootFolder
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.selenium.exception.DatabaseException: PROBLEM WITH RESULT-SET OBTAINED FROM DB
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+</failure>
+    <system-out><![CDATA[...
+... TestNG 6.8beta 20120825_1010 by C?dric Beust (cedric@beust.com)
+...
+
+AssistTest5......Started
+AssistTest3......Started
+AssistTest2......Started
+AssistTest1......Started
+AssistTest4......Started
+NITICQuoteQAYcom.mysql.jdbc.Driverjdbc:mysql://192.168.84.225:3700/SeleniumConfigrootredhatchromeActual192.168.4.1314444
+NITICQuoteQAYcom.mysql.jdbc.Driverjdbc:mysql://192.168.84.225:3700/SeleniumConfigrootredhatchromeActual192.168.4.1314444
+NITICQuoteQAYcom.mysql.jdbc.Driverjdbc:mysql://192.168.84.225:3700/SeleniumConfigrootredhatchromeActual192.168.4.1314444
+NITICQuoteQAYcom.mysql.jdbc.Driverjdbc:mysql://192.168.84.225:3700/SeleniumConfigrootredhatchromeActual192.168.4.1314444
+NITICQuoteQAYcom.mysql.jdbc.Driverjdbc:mysql://192.168.84.225:3700/SeleniumConfigrootredhatchromeActual192.168.4.1314444
+com.mysql.jdbc.Driverjdbc:mysql://192.168.84.225:3700/NITIC_UIqawrtieuserqawriteuser*1
+]]></system-out>
+  </testcase>
+  <testcase name="loadconfig" classname="com.selenium.Test.UIMainscript" time="2.51">
+    <failure message="ERROR IN RETRIVING DATA FROM -- MacroClassName" type="com.selenium.exception.PropertiesHandleException">com.selenium.exception.PropertiesHandleException: ERROR IN RETRIVING DATA FROM -- MacroClassName
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.selenium.exception.DatabaseException: PROBLEM WITH RESULT-SET OBTAINED FROM DB
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: 
+Communications link failure
+
+Last packet sent to the server was 2 ms ago.
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: java.net.SocketException: Socket closed
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+</failure>
+  </testcase>
+  <testcase name="loadconfig" classname="com.selenium.Test.UIMainscript" time="2.51">
+    <failure message="ERROR IN SQL - QUERY -- ComaparisonTableName" type="com.selenium.exception.PropertiesHandleException">com.selenium.exception.PropertiesHandleException: ERROR IN SQL - QUERY -- ComaparisonTableName
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.selenium.exception.DatabaseException: PROBLEM WITH RESULT-SET OBTAINED FROM DB
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+</failure>
+  </testcase>
+  <testcase name="loadconfig" classname="com.selenium.Test.UIMainscript" time="2.51">
+    <failure message="ERROR IN RETRIVING DATA FROM -- DB_Password" type="com.selenium.exception.PropertiesHandleException">com.selenium.exception.PropertiesHandleException: ERROR IN RETRIVING DATA FROM -- DB_Password
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.selenium.exception.DatabaseException: PROBLEM WITH RESULT-SET OBTAINED FROM DB
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+</failure>
+  </testcase>
+  <testcase name="UITest" classname="com.selenium.Test.UIMainscript" time="0">
+    <skipped message="java.lang.NullPointerException"/>
+  </testcase>
+  <testcase name="UITest" classname="com.selenium.Test.UIMainscript" time="0">
+    <skipped message="java.lang.NullPointerException"/>
+  </testcase>
+  <testcase name="UITest" classname="com.selenium.Test.UIMainscript" time="0">
+    <skipped message="java.lang.NullPointerException"/>
+  </testcase>
+  <testcase name="UITest" classname="com.selenium.Test.UIMainscript" time="0">
+    <skipped message="java.lang.NullPointerException"/>
+  </testcase>
+  <testcase name="UITest" classname="com.selenium.Test.UIMainscript" time="10.159"/>
+  <testcase name="UITest" classname="com.selenium.Test.UIMainscript" time="6.62"/>
+  <testcase name="UITest" classname="com.selenium.Test.UIMainscript" time="3.814"/>
+  <testcase name="UITest" classname="com.selenium.Test.UIMainscript" time="4.674"/>
+  <testcase name="UITest" classname="com.selenium.Test.UIMainscript" time="3.599"/>
+  <testcase name="UITest" classname="com.selenium.Test.UIMainscript" time="5.284"/>
+  <testcase name="UITest" classname="com.selenium.Test.UIMainscript" time="3.683"/>
+  <testcase name="UITest" classname="com.selenium.Test.UIMainscript" time="5.301"/>
+  <testcase name="UITest" classname="com.selenium.Test.UIMainscript" time="4.481"/>
+  <testcase name="close" classname="com.selenium.Test.UIMainscript" time="0">
+    <skipped/>
+    <system-out><![CDATA[UITest test has Skipped *****
+UITest test has Skipped *****
+]]></system-out>
+  </testcase>
+  <testcase name="close" classname="com.selenium.Test.UIMainscript" time="0">
+    <skipped/>
+    <system-out><![CDATA[UITest test has Skipped *****
+]]></system-out>
+  </testcase>
+  <testcase name="close" classname="com.selenium.Test.UIMainscript" time="0">
+    <skipped/>
+    <system-out><![CDATA[UITest test has Skipped *****
+]]></system-out>
+  </testcase>
+  <testcase name="close" classname="com.selenium.Test.UIMainscript" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

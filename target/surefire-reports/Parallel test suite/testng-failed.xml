@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Parallel test suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.selenium.TestNGListeners.TestngListener"/>
+    <listener class-name="com.selenium.TestNGReport.TestNGCustomReportListener"/>
+  </listeners>
+  <test name="AssistTest3(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.Test.UIMainscript">
+        <methods>
+          <include name="close"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="UITest"/>
+        </methods>
+      </class> <!-- com.selenium.Test.UIMainscript -->
+    </classes>
+  </test> <!-- AssistTest3(failed) -->
+  <test name="AssistTest1(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.Test.UIMainscript">
+        <methods>
+          <include name="close"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="UITest"/>
+        </methods>
+      </class> <!-- com.selenium.Test.UIMainscript -->
+    </classes>
+  </test> <!-- AssistTest1(failed) -->
+  <test name="AssistTest5(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.Test.UIMainscript">
+        <methods>
+          <include name="close"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="UITest"/>
+        </methods>
+      </class> <!-- com.selenium.Test.UIMainscript -->
+    </classes>
+  </test> <!-- AssistTest5(failed) -->
+  <test name="AssistTest4(failed)" parallel="tests">
+    <classes>
+      <class name="com.selenium.Test.UIMainscript">
+        <methods>
+          <include name="close"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="loadconfig"/>
+          <include name="UITest"/>
+        </methods>
+      </class> <!-- com.selenium.Test.UIMainscript -->
+    </classes>
+  </test> <!-- AssistTest4(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

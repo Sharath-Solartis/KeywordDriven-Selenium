@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" parallel="tests" thread-count="5"  verbose="2">
+  <test name="AssistTest5">
+    <classes>
+      <class name="com.selenium.Test.UIMainscript"/>
+    </classes>
+  </test> 
+   <test name="AssistTest1">
+    <classes>
+      <class name="com.selenium.Test.UIMainscript"/>
+    </classes>
+  </test> 
+   <test name="AssistTest2">
+    <classes>
+      <class name="com.selenium.Test.UIMainscript"/>
+    </classes>
+  </test> 
+   <test name="AssistTest3">
+    <classes>
+      <class name="com.selenium.Test.UIMainscript"/>
+    </classes>
+  </test> 
+   <test name="AssistTest4">
+    <classes>
+      <class name="com.selenium.Test.UIMainscript"/>
+    </classes>
+  </test> 
+  <listeners>
+      <!--   <listener class-name="com.selenium.TestNGListeners.RetryListener"/> -->
+        <listener class-name="com.selenium.TestNGListeners.TestngListener"/>
+        <listener class-name="com.selenium.TestNGReport.TestNGCustomReportListener" />     
+  </listeners>
+</suite> <!-- Suite -->

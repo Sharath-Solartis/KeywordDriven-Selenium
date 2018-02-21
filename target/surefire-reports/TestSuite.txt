@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 4, Errors: 0, Skipped: 8, Time elapsed: 71.424 s <<< FAILURE! - in TestSuite
+loadconfig(com.selenium.Test.UIMainscript)  Time elapsed: 2.508 s  <<< FAILURE!
+com.selenium.exception.PropertiesHandleException: ERROR IN RETRIVING DATA FROM -- RootFolder
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.selenium.exception.DatabaseException: PROBLEM WITH RESULT-SET OBTAINED FROM DB
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+
+loadconfig(com.selenium.Test.UIMainscript)  Time elapsed: 2.51 s  <<< FAILURE!
+com.selenium.exception.PropertiesHandleException: ERROR IN RETRIVING DATA FROM -- MacroClassName
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.selenium.exception.DatabaseException: PROBLEM WITH RESULT-SET OBTAINED FROM DB
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: 
+Communications link failure
+
+Last packet sent to the server was 2 ms ago.
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: java.net.SocketException: Socket closed
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+
+loadconfig(com.selenium.Test.UIMainscript)  Time elapsed: 2.51 s  <<< FAILURE!
+com.selenium.exception.PropertiesHandleException: ERROR IN SQL - QUERY -- ComaparisonTableName
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.selenium.exception.DatabaseException: PROBLEM WITH RESULT-SET OBTAINED FROM DB
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+
+loadconfig(com.selenium.Test.UIMainscript)  Time elapsed: 2.51 s  <<< FAILURE!
+com.selenium.exception.PropertiesHandleException: ERROR IN RETRIVING DATA FROM -- DB_Password
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.selenium.exception.DatabaseException: PROBLEM WITH RESULT-SET OBTAINED FROM DB
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at com.selenium.Test.UIMainscript.loadconfig(UIMainscript.java:49)
+
